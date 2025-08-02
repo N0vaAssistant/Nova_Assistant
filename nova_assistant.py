@@ -147,11 +147,11 @@ def ecouter():
 
 # --- INTERACTION IA (GROQ) ---
 def get_system_prompt(mode: str):
-    base_prompt = "Tu es Nova, un assistant vocal créé par un jeune développeur français nommé Guylann. La première version date du 01/08/25."
+    base_prompt = "Tu es Nova, un assistant vocal créé par un jeune développeur français nommé Guylann. La première version date du 01/08/25.Tu es sur windows et la personne en face est probablement en situation de handicape."
     if mode == "rapide":
-        return "Tu es Nova, un assistant vocal concis et direct. Réponds de manière brève et précise, droit au but."
+        return "Tu es Nova, un assistant vocal concis et direct. Réponds de manière brève et précise, droit au but.Tu es sur windows et la personne en face est probablement en situation de handicape."
     elif mode == "histoire":
-        return "Tu es Nova, un assistant vocal très bavard et aime raconter des anecdotes et des détails supplémentaires. Parle beaucoup et enrichis tes réponses."
+        return "Tu es Nova, un assistant vocal très bavard et aime raconter des anecdotes et des détails supplémentaires. Parle beaucoup et enrichis tes réponses.Tu es sur windows et la personne en face est probablement en situation de handicape."
     else: # normal
         return base_prompt
 
