@@ -14,28 +14,21 @@ Merci pour l'intérêt porté à Nova. Ce projet a pour ambition de rendre la te
 ## Mise en place locale
 
 1. Cloner le dépôt :
-   ```bash
-   git clone https://github.com/tonuser/nova.git
+   **git clone http://github.com/N0vaAssistant/Nova_Assistant.git**
+   
 Accéder au dossier :
-
-bash
-Copier
-Modifier
-cd nova
+**cd nova**
 Suivre les instructions du fichier README.md pour l'installation.
 
-Règles de contribution
-Le code doit rester libre et open source.
+## Règles de contribution
+**Le code doit rester libre et open source.**
 
-L'utilisation commerciale est interdite (voir la licence).
+**Toute contribution doit respecter les autres membres et l'objectif du projet.**
 
-Toute contribution doit respecter les autres membres et l'objectif du projet.
+**Le code soumis doit être lisible, commenté si nécessaire, et facile à maintenir.**
 
-Le code soumis doit être lisible, commenté si nécessaire, et facile à maintenir.
+**Les dépendances propriétaires ou à licence douteuse ne sont pas acceptées.**
 
-Les dépendances propriétaires ou à licence douteuse ne sont pas acceptées.
-
-Communication
+# Communication
 En cas de question ou de discussion technique, merci d'ouvrir une issue sur le dépôt GitHub.
-
 Chaque contribution, même petite, aide à rendre Nova plus utile pour tous. Merci de participer à cette démarche collective et responsable.
