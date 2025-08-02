@@ -1,15 +1,15 @@
-# 🚀 Nova AI Assistant (Tout en Python)
+#  Nova AI Assistant (Tout en Python)
 
 Bienvenue sur Nova, votre assistant vocal intelligent et personnalisable, entièrement développé en Python ! Ce projet combine un assistant vocal local puissant avec une interface web de configuration simple, le tout dans un ensemble compact.
 
-## ✨ Fonctionnalités
+##  Fonctionnalités
 
 *   **Assistant Vocal Local** : Écoute vos commandes en arrière-plan.
 *   **Actions Système** : Ouvre des applications, écrit du texte, recherche sur le web, **et ouvre l'interface de configuration**.
 *   **Modes de Conversation** : "Rapide", "Normal", "Histoire" pour adapter les réponses de l'IA.
 *   **Interface Web de Configuration** : Accédez à `http://127.0.0.1:5000` pour changer le mode et vérifier le statut.
 
-## 🛠️ Technologies Utilisées
+## 🛠 Technologies Utilisées
 
 *   **Python 3.x** : Langage de programmation principal.
 *   **Flask** : Micro-framework web pour servir l'interface de configuration.
@@ -21,7 +21,7 @@ Bienvenue sur Nova, votre assistant vocal intelligent et personnalisable, entiè
 *   **Subprocess** : Pour lancer des applications externes.
 *   **tempfile** : Pour la gestion robuste des fichiers temporaires audio.
 
-## 🚀 Démarrage Rapide
+##  Démarrage Rapide
 
 Suivez ces étapes pour lancer le projet sur votre machine locale.
 
@@ -84,7 +84,7 @@ Deux fenêtres de console s'ouvriront :
 
 Ouvrez votre navigateur web et naviguez vers : `http://127.0.0.1:5000`
 
-## 💡 Utilisation
+##  Utilisation
 
 1.  **Lancer** : Exécutez `start.bat`. L'assistant vocal commencera à écouter en arrière-plan.
 2.  **Configurer** : Utilisez l'interface web pour choisir le mode de conversation et appliquer les changements.
@@ -94,7 +94,7 @@ Ouvrez votre navigateur web et naviguez vers : `http://127.0.0.1:5000`
     *   Ex: "Nova, **paramètres**" (pour ouvrir l'interface de configuration)
     *   Ex: "Nova, quelle est la météo ?"
 
-## 📂 Structure du Projet
+##  Structure du Projet
 
 \`\`\`
 nova-ai-assistant/
@@ -103,7 +103,7 @@ nova-ai-assistant/
 └── README.md                  # Ce fichier
 \`\`\`
 
-## 💡 Améliorations Futures Possibles
+##  Améliorations Futures Possibles
 
 *   **Plus d'Actions Système** : Étendre les capacités du script Python pour ouvrir d'autres applications, contrôler la musique, gérer des fichiers, etc.
 *   **Système de Plugins** : Mettre en place une architecture de plugins pour ajouter facilement de nouvelles actions ou intégrations sans modifier le cœur de l'assistant.
