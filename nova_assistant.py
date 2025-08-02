@@ -15,11 +15,17 @@ import tempfile # <-- Nouvelle importation
 # --- 🧠 CONFIGURATION GLOBALE ---
 # Ces variables seront lues depuis les variables d'environnement pour plus de sécurité
 print(" ▄▄    ▄ ▄▄▄▄▄▄▄ ▄▄   ▄▄ ▄▄▄▄▄▄▄ ")
+time.sleep(0.1)
 print("█  █  █ █       █  █ █  █       █")
+time.sleep(0.1)
 print("█   █▄█ █   ▄   █  █▄█  █   ▄   █")
+time.sleep(0.1)
 print("█       █  █ █  █       █  █▄█  █")
+time.sleep(0.1)
 print("█  ▄    █  █▄█  █       █       █")
+time.sleep(0.1)
 print("█ █ █   █       ██     ██   ▄   █")
+time.sleep(0.1)
 print("█▄█  █▄▄█▄▄▄▄▄▄▄█ █▄▄▄█ █▄▄█ █▄▄█")
 print("GNU GENERAL PUBLIC LICENSE v3")
 HOTWORD = os.getenv("NOVA_HOTWORD", "nova")
