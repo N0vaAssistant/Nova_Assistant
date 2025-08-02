@@ -13,63 +13,72 @@ Nova est un assistant vocal intelligent, local et personnalisable, entièrement 
 **Respect de la vie privée** : aucune donnée vocale envoyée sans consentement (service IA et TTS activables uniquement avec clés API).
 
 ## Technologies utilisées
-Python 3.8+
 
-Flask (serveur web local)
-
-SpeechRecognition (STT)
-
-Pygame (lecture audio)
-
-Groq SDK (IA générative)
-
-ElevenLabs API (synthèse vocale naturelle)
-
-PyAutoGUI (automatisation clavier/souris)
-
-Subprocess & Tempfile (gestion des processus et fichiers temporaires)
+-Python 3.8+
+-Flask (serveur web local)
+-SpeechRecognition (STT)
+-Pygame (lecture audio)
+-Groq SDK (IA générative)
+-ElevenLabs API (synthèse vocale naturelle)
+-PyAutoGUI (automatisation clavier/souris)
+-Subprocess & Tempfile (gestion des processus et fichiers temporaires)
 
 ## Installation rapide
 ### Prérequis
-Python 3.8 ou supérieur
 
-pip (gestionnaire de paquets Python)
+**- Python 3.8 ou supérieur**
+**- pip (gestionnaire de paquets Python)**
 
 ### Étapes
-bash
-Copier
-Modifier
-git clone <URL_DU_DEPOT>
-cd nova-ai-assistant
+
+**git clone https://github.com/N0vaAssistant/Nova_Assistant.git**
+**cd nova-ai-assistant**
 
 # Créer et activer un environnement virtuel (optionnel mais recommandé)
 python -m venv venv
 # Windows
+
 .\venv\Scripts\activate
-# macOS/Linux
-source venv/bin/activate
 
 # Installer les dépendances
-pip install -r requirements.txt
-Note : tu peux aussi installer manuellement les paquets listés dans la section Technologies.
 
-Configuration
-Crée un fichier start.bat (ou adapte-le) avec tes clés API et paramètres d’environnement :
+**installer manuellement les paquets listés dans la section Technologies.**
 
-batch
-Copier
-Modifier
+## Configuration
+Modifiez le fichier **start.bat** avec tes clefs API et paramètres d’environnement :
+
 set NOVA_HOTWORD=nova
 set GROQ_API_KEY="ta_clef_api_groq"
 set GROQ_MODEL="llama-3.3-70b-versatile"
 set ELEVENLABS_API_KEY="ta_clef_api_elevenlabs"
 set ELEVENLABS_VOICE_ID="EXAVITQu4vr4xnSDxMaL"
 Lancement
+
+### Comment récuperer les clefs API
+**1. GROQ_API_KEY (service d’IA Groq) :**
+
+Créez un compte sur https://www.groq.com/.
+
+Une fois connecté, rendez-vous dans votre tableau de bord développeur.
+
+Dans la section API Keys, générez une nouvelle clé.
+
+Copiez-la et ajoutez-la dans votre fichier d’environnement sous la variable GROQ_API_KEY.
+
+**2. ELEVENLABS_API_KEY (synthèse vocale ElevenLabs) :**
+
+Inscrivez-vous sur https://elevenlabs.io/.
+
+Accédez à votre compte et trouvez la section API.
+
+Créez une clé API et copiez-la.
+
+Placez cette clé dans votre fichier d’environnement sous la variable ELEVENLABS_API_KEY.
+
+
+## Lancer
 Double-clique sur start.bat ou lance depuis un terminal :
 
-bash
-Copier
-Modifier
 python nova_assistant.py
 **Tu verras deux consoles** :
 
