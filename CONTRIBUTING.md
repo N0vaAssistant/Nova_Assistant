@@ -16,8 +16,9 @@ Merci pour l'intérêt porté à Nova. Ce projet a pour ambition de rendre la te
 1. Cloner le dépôt :
    **git clone http://github.com/N0vaAssistant/Nova_Assistant.git**
    
-Accéder au dossier :
+2. Accéder au dossier :
 **cd nova**
+
 Suivre les instructions du fichier README.md pour l'installation.
 
 ## Règles de contribution
