@@ -1,3 +1,7 @@
+
+
+<a href="https://zupimages.net/viewer.php?id=25/31/xgq5.png"><img src="https://zupimages.net/up/25/31/xgq5.png" alt="" /></a>
+
 # Nova AI Assistant (100% Python)
 Nova est un assistant vocal intelligent, local et personnalisable, entièrement développé en Python. Il combine reconnaissance vocale, synthèse vocale, intelligence artificielle, et une interface web simple pour une configuration facile.
 
