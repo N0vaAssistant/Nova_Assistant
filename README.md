@@ -40,27 +40,30 @@ Python 3.8 or higher
 **pip (Python package manager)**
 
 ## Steps
-**git clone https://github.com/N0vaAssistant/Nova_Assistant.git**
-**cd nova-ai-assistant**
+```
+git clone https://github.com/N0vaAssistant/Nova_Assistant.git
+cd nova-ai-assistant
+```
 *Create and activate a virtual environment (optional but recommended):*
 
 ## Windows:
-
+```
 python -m venv venv
 .\venv\Scripts\activate
+```
 Install the dependencies manually listed in the Technologies section.
 
 ## Configuration
 **Edit start.bat with your API keys and environment settings:**
-
+```
 set NOVA_HOTWORD=nova
 set GROQ_API_KEY="your_groq_api_key"
 set GROQ_MODEL="llama-3.3-70b-versatile"
 set ELEVENLABS_API_KEY="your_elevenlabs_api_key"
 set ELEVENLABS_VOICE_ID="EXAVITQu4vr4xnSDxMaL"
-
+```
 # How to get API keys
-**1. GROQ_API_KEY (Groq AI service):**
+### 1. GROQ_API_KEY (Groq AI service):
 
 **- Create an account on https://www.groq.com/**
 
@@ -70,7 +73,7 @@ set ELEVENLABS_VOICE_ID="EXAVITQu4vr4xnSDxMaL"
 
 **- Copy it and add it to your environment file under the GROQ_API_KEY variable**
 
-**2. ELEVENLABS_API_KEY (ElevenLabs speech synthesis):**
+### 2. ELEVENLABS_API_KEY (ElevenLabs speech synthesis):
 
 **- Sign up at https://elevenlabs.io/**
 
@@ -106,7 +109,7 @@ python nova_assistant.py
 *Configure Nova: open http://127.0.0.1:5000 in your browser to change modes and check status, or say "Nova settings".*
 
 ## Project Structure
-
+```
  nova-ai-assistant/  
 ├── CONDITIONS.txt          # Contains the terms of use, legal conditions, or specific rules related to the project.
 
@@ -121,7 +124,7 @@ python nova_assistant.py
 ├── nova_assistant.py       # Primary Python script containing the source code for the Nova voice assistant.
 
 └── start.bat               # Windows batch script (.bat) to easily launch the project or its components from the Windows command line.
-
+```
 **Plugin system integration for extending actions**
 
 **Improved web interface with text chat and history**
