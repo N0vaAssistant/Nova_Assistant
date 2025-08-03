@@ -1,4 +1,5 @@
 <a href="https://zupimages.net/viewer.php?id=25/31/xgq5.png"><img src="https://zupimages.net/up/25/31/xgq5.png" alt="" /></a>
+*This project is in Beta 1.0 and was primarily developed in French. Some commands in English may not work properly yet.*
 
 # Nova AI Assistant (100% Python)
 *Nova is an intelligent, local, and customizable voice assistant, fully developed in Python. It combines speech recognition, speech synthesis, artificial intelligence, and a simple web interface for easy configuration.
