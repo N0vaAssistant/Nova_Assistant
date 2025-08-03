@@ -107,6 +107,7 @@ Configure Nova : ouvre http://127.0.0.1:5000 dans ton navigateur pour changer le
 
 # Structure du projet
 
+
 nova-ai-assistant/
 
 ├── nova_assistant.py          # Script principal de l’assistant et serveur web
@@ -116,6 +117,7 @@ nova-ai-assistant/
 ├── README.md                  # Documentation du projet
 
 ├── requirements.txt           # Liste des dépendances Python (optionnel à ajouter)
+
 
 
 **Intégration d’un système de plugins pour étendre les actions**
