@@ -109,11 +109,17 @@ python nova_assistant.py
 
  nova-ai-assistant/  
 ├── CONDITIONS.txt          # Contains the terms of use, legal conditions, or specific rules related to the project.
+
 ├── CONTRIBUTING.md         # Guide for contributors explaining how to participate: contribution rules, best practices, and how to propose changes.
+
 ├── LICENSE                 # Specifies the project license, detailing the rights and restrictions for using, modifying, and distributing the software.
+
 ├── Nova Luncher.lnk        # Windows shortcut (.lnk) likely used to launch the Nova application or a related script. Windows-specific file.
+
 ├── README.md               # Main project documentation with description, installation instructions, usage guidelines, and general info.
+
 ├── nova_assistant.py       # Primary Python script containing the source code for the Nova voice assistant.
+
 └── start.bat               # Windows batch script (.bat) to easily launch the project or its components from the Windows command line.
 
 **Plugin system integration for extending actions**
