@@ -34,30 +34,30 @@ Nova est un assistant vocal intelligent, local et personnalisable, entièrement 
 **- pip (gestionnaire de paquets Python)**
 
 ### Étapes
-
-**git clone https://github.com/N0vaAssistant/Nova_Assistant.git**
-**cd nova-ai-assistant**
-
+```
+git clone https://github.com/N0vaAssistant/Nova_Assistant.git
+cd nova-ai-assistant
+```
 # Créer et activer un environnement virtuel (optionnel mais recommandé)
 python -m venv venv
 # Windows
-
+```
 .\venv\Scripts\activate
-
+```
 # Installer les dépendances
 
 **installer manuellement les paquets listés dans la section Technologies.**
 
 ## Configuration
 Modifiez le fichier **start.bat** avec tes clefs API et paramètres d’environnement :
-
+```
 set NOVA_HOTWORD=nova
 set GROQ_API_KEY="ta_clef_api_groq"
 set GROQ_MODEL="llama-3.3-70b-versatile"
 set ELEVENLABS_API_KEY="ta_clef_api_elevenlabs"
 set ELEVENLABS_VOICE_ID="EXAVITQu4vr4xnSDxMaL"
 Lancement
-
+```
 ### Comment récuperer les clefs API
 **1. GROQ_API_KEY (service d’IA Groq) :**
 
@@ -107,7 +107,7 @@ Configure Nova : ouvre http://127.0.0.1:5000 dans ton navigateur pour changer le
 
 # Structure du projet
 
-
+```
 nova-ai-assistant/
 
 ├── nova_assistant.py          # Script principal de l’assistant et serveur web
@@ -117,7 +117,7 @@ nova-ai-assistant/
 ├── README.md                  # Documentation du projet
 
 ├── requirements.txt           # Liste des dépendances Python (optionnel à ajouter)
-
+```
 
 
 **Intégration d’un système de plugins pour étendre les actions**
