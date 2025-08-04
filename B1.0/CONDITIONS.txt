@@ -1,0 +1,44 @@
+1. OBJET
+NOVA est un assistant vocal open source développé pour offrir à chacun·e, y compris les personnes en situation de handicap, un accès simple et respectueux à l’informatique. Ce logiciel est distribué gratuitement, sous licence libre, dans une logique de partage et de progrès collectif.
+
+2. LICENCE
+NOVA est distribué sous licence GPLv3, ce qui garantit :
+
+-La liberté d’utiliser le logiciel
+-La liberté d’en étudier le fonctionnement
+-La liberté de le modifier
+-La liberté de le redistribuer
+
+!! Néanmoins, toute utilisation commerciale n’est PAS souhaitée.Même si la GPLv3 le permet techniquement, l’auteur exprime clairement son opposition morale à toute forme d’industrialisation ou de monétisation de NOVA.
+
+3. DONATIONS
+Le développement de NOVA est porté par une volonté d’entraide, non de profit.
+Les dons sont acceptés uniquement sur base volontaire, pour encourager et soutenir le travail du créateur. Aucune fonctionnalité n’est conditionnée à un paiement.
+
+4. RESPECT DE LA VIE PRIVÉE
+NOVA ne collecte aucune donnée personnelle par défaut.
+Toute donnée temporairement utilisée est traitée localement et ne quitte jamais votre appareil.
+
+5. RESPONSABILITÉ
+Le logiciel est fourni "en l’état", sans garantie.
+L’auteur ne pourra être tenu responsable d’un usage incorrect, d’un dysfonctionnement, ou de tout dommage indirect causé par le logiciel.
+
+6. MODIFICATIONS ET CONTRIBUTIONS
+Les contributions sont les bienvenues, à condition de respecter :
+
+Les valeurs du projet : accessibilité, éthique, respect de l’utilisateur.
+
+L’esprit open source : chaque contribution reste librement accessible.
+
+7. INTERDICTIONS
+Sont formellement interdits :
+
+La revente du logiciel, même modifié
+
+L’intégration dans des produits commerciaux sans autorisation explicite
+
+L’usage pour surveiller ou nuire à des individus
+
+8. CONTACT
+Pour signaler un bug, proposer une idée, ou soutenir le projet :
+https://github.com/N0vaAssistant/Nova_Assistant/
