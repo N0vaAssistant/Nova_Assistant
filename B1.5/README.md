@@ -110,20 +110,20 @@ python nova_assistant.py
 
 ## Project Structure
 ```
- nova-ai-assistant/  
-├── CONDITIONS.txt          # Contains the terms of use, legal conditions, or specific rules related to the project.
-
-├── CONTRIBUTING.md         # Guide for contributors explaining how to participate: contribution rules, best practices, and how to propose changes.
-
-├── LICENSE                 # Specifies the project license, detailing the rights and restrictions for using, modifying, and distributing the software.
-
-├── Nova Luncher.lnk        # Windows shortcut (.lnk) likely used to launch the Nova application or a related script. Windows-specific file.
-
-├── README.md               # Main project documentation with description, installation instructions, usage guidelines, and general info.
-
-├── nova_assistant.py       # Primary Python script containing the source code for the Nova voice assistant.
-
-└── start.bat               # Windows batch script (.bat) to easily launch the project or its components from the Windows command line.
+nova-ai-assistant/
+├── icon/
+     └── N.ico
+├── public/
+      └── images/
+            └── nova_logo.png
+├── luncher.py               
+├── Nova Luncher.lnk
+├── nova_assistant_en.py
+├── nova_assistant_fr.py
+├── README.fr.md
+├── README.md
+├── start_en.bat
+└── start_fr.bat
 ```
 **Plugin system integration for extending actions**
 
