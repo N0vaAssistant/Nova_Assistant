@@ -96,12 +96,21 @@ Ouvrez votre navigateur web et naviguez vers : `http://127.0.0.1:5000`
 
 ## 📂 Structure du Projet
 
-\`\`\`
+```
 nova-ai-assistant/
-├── nova_assistant.py          # Cœur de l'assistant et serveur web Flask
-├── start.bat                  # Script de lancement pour Windows
-└── README.md                  # Ce fichier
-\`\`\`
+├── icon/
+     └── N.ico
+├── public/
+      └── images/
+            └── nova_logo.png
+├── luncher.py               
+├── Nova Luncher.lnk
+├── nova_assistant_en.py
+├── nova_assistant_fr.py
+├── README.md
+├── start_en.bat
+└── start_fr.bat
+```
 
 ## 💡 Améliorations Futures Possibles
 
