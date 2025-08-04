@@ -107,6 +107,7 @@ nova-ai-assistant/
 ├── Nova Luncher.lnk
 ├── nova_assistant_en.py
 ├── nova_assistant_fr.py
+├── README.fr.md
 ├── README.md
 ├── start_en.bat
 └── start_fr.bat
