@@ -1,0 +1,29 @@
+# GUI avec PyQt
+PyQt6
+
+# Reconnaissance vocale
+SpeechRecognition
+
+# Synthèse audio
+pygame
+
+# Requêtes HTTP
+requests
+
+# Contrôle souris/clavier (ex: pour commandes système via Nova)
+pyautogui
+
+# Serveur web local
+Flask
+
+# File d'attente, logging, threading, time, tempfile : font partie de la bibliothèque standard (pas besoin de les installer)
+
+# Accès à Groq API (si utilisé pour LLM)
+groq
+
+# Pour jouer des sons, vérifier aussi si pyaudio est requis par SpeechRecognition
+pyaudio ; platform_system != 'Windows'  # utile sur Linux/macOS
+
+# Optionnel : dépendance Windows pour pyaudio (si distribué à d'autres sur Windows)
+# pip install pipwin
+# pipwin install pyaudio
