@@ -11,9 +11,9 @@ echo.
 :: Definir les variables d'environnement pour le script Python
 :: REMPLACER AVEC VOS VRAIES CLES API ET ID DE VOIX
 set NOVA_HOTWORD=nova
-set GROQ_API_KEY=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
+set GROQ_API_KEY=VOTRE_KEY
 set GROQ_MODEL=llama-3.3-70b-versatile
-set ELEVENLABS_API_KEY=sk_016df12c655acdd24ba1ac7ba26d3390a846352b026500e2
+set ELEVENLABS_API_KEY=VOTRE_KEY
 set ELEVENLABS_VOICE_ID=9BWtsMINqrJLrRacOk9x
 :: Lancer le script Python dans une nouvelle fenetre de console
 :: Le "start cmd /k" ouvre une nouvelle fenetre et y execute la commande, puis la garde ouverte.
