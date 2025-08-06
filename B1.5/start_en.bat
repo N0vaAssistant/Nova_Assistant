@@ -1,26 +1,26 @@
 @echo off
-echo Lancement de l'assistant vocal Nova...
+echo Starting the Nova voice assistant...
 
-:: --- Lancement du script Python de l'assistant local ---
+:: --- Launching the local Python assistant script ---
 echo.
-echo Lancement du coeur de l'assistant Python (nova_assistant.py)...
-echo Assurez-vous que Python est installe et que les dependances sont a jour (pip install SpeechRecognition requests pygame groq Flask pyautogui).
+echo Starting the core of the Python assistant (nova_assistant.py)...
+echo Make sure Python is installed and that all dependencies are up to date (pip install SpeechRecognition requests pygame groq Flask pyautogui).
 echo.
 
-
-:: Definir les variables d'environnement pour le script Python
-:: REMPLACER AVEC VOS VRAIES CLES API ET ID DE VOIX
+:: Set environment variables for the Python script
+:: REPLACE WITH YOUR ACTUAL API KEYS AND VOICE ID
 set NOVA_HOTWORD=nova
 set GROQ_API_KEY=YOUR_KEY
 set GROQ_MODEL=llama-3.3-70b-versatile
 set ELEVENLABS_API_KEY=YOUR_KEY
 set ELEVENLABS_VOICE_ID=9BWtsMINqrJLrRacOk9x
-:: Lancer le script Python dans une nouvelle fenetre de console
-:: Le "start cmd /k" ouvre une nouvelle fenetre et y execute la commande, puis la garde ouverte.
+
+:: Launch the Python script in a new command window
+:: "start cmd /k" opens a new window, runs the command, and keeps it open
 start cmd /k python nova_assistant_en.py
 
 echo.
-echo L'assistant vocal Nova est lance.
-echo L'interface de configuration est accessible via votre navigateur a l'adresse : http://127.0.0.1:5000
+echo The Nova voice assistant has been started.
+echo The configuration interface is available in your browser at: http://127.0.0.1:5000
 echo.
 pause
